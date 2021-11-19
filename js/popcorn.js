@@ -28,8 +28,9 @@
 
       window.addEventListener("scroll", function(){
         var header = document.onscroll("header");
-        header.classList.toggle("sticky", window.scrollY > 5);
+        header.classList.toggle("sticky", window.scrollY > 0);
       });
+
       document.querySelector('#newss').scrollIntoView({ 
         behavior: 'smooth' 
       });
