@@ -1,2 +1,2 @@
 
-<?php include_once(“popcorn.html); ?>
+<?php include("popcorn.html"); ?>
